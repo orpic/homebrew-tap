@@ -4,22 +4,22 @@ cask "stackstart" do
 
   on_macos do
     on_intel do
-      sha256 "f9beff5ce26c9404259762e82788274d67fa7850851272f22fb4bc174587d45d"
+      sha256 "348cc80887b819d921409965c7a778db5b875a7d14c2896464fdb410f7b7a4e4"
       url "https://github.com/orpic/stack-start/releases/download/v#{version}/stackstart_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "2a3d87bfd44fd07a221e6395f7c43c7cd500de25b8071291720bd7a8494db8b4"
+      sha256 "4f447ca2b4198dfc8e5a852e6240314578be72a3021a7d13319bd0a50b420e08"
       url "https://github.com/orpic/stack-start/releases/download/v#{version}/stackstart_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "21c20f71d2be5e9c55cec6a9f3706a824bc98a72859f7f4e77b0f90d2e708ae2"
+      sha256 "750bef9969fe9dbbea3f9f0f8a5d57fe40751f9b541c3681350f093dbfd61047"
       url "https://github.com/orpic/stack-start/releases/download/v#{version}/stackstart_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "00e2c7fa84bd656e46c18339115dc1d3cc0aa058a83abeb29f9754c43e68a15c"
+      sha256 "6ca96af1399ec5c7a94889e842399d7cc6fde23f3e6fd041a7057a2a4f9a3f17"
       url "https://github.com/orpic/stack-start/releases/download/v#{version}/stackstart_#{version}_linux_arm64.tar.gz"
     end
   end
